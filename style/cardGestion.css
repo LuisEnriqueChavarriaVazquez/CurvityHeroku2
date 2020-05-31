@@ -1,0 +1,9 @@
+.cardSizeGestion{
+    height: 100px;
+}
+
+.cardFontGestion{
+    background-image: url('../pictures/cardGestionFont.jpg');
+    background-position: center;
+    background-size: cover;
+}

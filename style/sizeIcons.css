@@ -1,0 +1,30 @@
+.sizeIcons{
+    width: .7em !important;
+    height: .7em !important;
+}
+
+.sizeIconsSideNav{
+    width: 1.5em !important;
+    height: 1.5em !important;
+    position: relative;
+    top: 5px;
+}
+
+
+.sizeFloatingButton{
+    width: 1.7em !important;
+    height: 1.7em !important;
+    position: relative;
+    top: 5px;
+}
+
+.sizeFloatingButtonBig{
+    width: 3.5 !important;
+    height: 3.5 !important;
+    position: relative;
+    top: 5px;
+}
+
+.sizeIconErase{
+    color: rgb(255, 255, 255);
+}

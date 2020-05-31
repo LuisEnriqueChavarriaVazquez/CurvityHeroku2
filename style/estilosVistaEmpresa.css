@@ -1,0 +1,54 @@
+
+.containerPicture{
+    width: 100%;
+}
+
+.imgFormater{
+    width: 100% !important;
+    position: relative;
+    height: 100%;
+}
+
+/*.stickyTitleContainer{
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+}*/
+
+.nombreEmpresaPerfil{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 20px;
+}
+
+.nombreEmpresaPerfil > p{
+    font-size: 1.5em;
+}
+
+
+/**/
+
+#nav-container-top {height: .1px;}
+
+#nav-container {
+    height: 45px;
+    font-weight: 900;
+    background-color: #eceff1;
+	position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all .3s ease-in-out;
+}
+
+.nav-container-sticky {
+    background-color: #01476B !important;
+    height: 60px !important;
+    font-weight: 200 !important;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

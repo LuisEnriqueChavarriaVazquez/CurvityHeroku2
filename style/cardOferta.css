@@ -1,0 +1,40 @@
+
+.backgroundCardOferta{
+    background-image: url(../pictures/cardOferta.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titleOfertaFinal{
+    font-size: 20px;
+    margin: 0px 5px -10px 0px;
+    color: black;
+    font-weight: 900;
+}
+
+.descripcionOfertaFinal{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.cardTitleOfertaFinal{
+    width: 100%;
+    height: 60px;
+}
+
+.cardTitleOfertaFinal > p{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+
+.Nota{
+    background-color: rgba(255, 251, 0, 0.575);
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.titleCard{
+    font-size: 20px !important;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.roundedCard{
+    border-radius: 10px;
+}
+
+.cardSize{
+    height: 130px;
+}
+
+.cardFont{
+    background-image: url('../pictures/cardFont.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cardPosition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

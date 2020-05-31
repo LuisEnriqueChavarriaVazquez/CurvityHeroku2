@@ -1,0 +1,19 @@
+.sizeButton{
+    margin: 20px 0 30px 0;
+}
+.textButton{
+    font-weight: 700;
+}
+
+.borderButton{
+    border-radius: 5px;
+}
+
+/*Buttons with just border*/
+.buttonDesignJustBorder{
+    background-color: rgb(0, 0, 0, .3);
+    color: #ffffff;
+    border-width: 2px !important;
+    border-color: #fff !important;
+    border-style: solid;
+}

@@ -1,0 +1,131 @@
+body{
+    background-color: #eceff1 ;
+    font-size: 10px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.contankPop{
+    padding: 0px 10px 10px 10px;
+}
+
+.boxSubjects{
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+}
+
+.boxSubjectsBrowser{
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+.boxSubjectsInicio{
+    width: 100%;
+    height: 1000px;
+    padding: 100px 30px 20px 30px;
+}
+
+.boxSubjectsInicioBigger{
+    width: 100%;
+    height: 1020px;
+    padding: 100px 30px 20px 30px;
+}
+
+.boxSubjectsInicioExtended{
+    width: 100%;
+    padding: 100px 30px 20px 30px;
+}
+
+.boxSubjectsErase{
+    width: 100%;
+    padding: 100px 20px 20px 20px;
+}
+
+.titles{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.centerElements{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centerElementsLeft{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.backgroundInicioAspirante{
+    height:85.22vh !important;
+    background-image: url('../pictures/explorer.png');
+    background-position: bottom;   
+    background-repeat: no-repeat;     
+    background-size:100%
+}
+
+.noLinkStyle{
+    color: black;
+}
+
+.errors{
+    padding: 5px;
+    font-size: 10px;
+    color: rgb(190, 0, 0);
+    background-color: rgba(255, 255, 255, 0.932);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success{
+    padding: 5px;
+    font-size: 10px;
+    color: rgb(0, 124, 41);
+    background-color: rgba(255, 255, 255, 0.932);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errors_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*Buscador final*/
+
+.formularioB{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caja_busqueda{
+    width: 85%;
+    height: 30px !important;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    transition: all .3s;
+}
+
+#caja_busqueda:hover{
+    background-color: rgb(202, 202, 202);
+}
+

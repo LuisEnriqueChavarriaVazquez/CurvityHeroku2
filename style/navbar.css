@@ -1,0 +1,19 @@
+
+/*Texto superior en la parte del navbar // APLICA PARA LOS NAVBAR CON MENU Y LOS NAVBAR DE REGRESO*/
+.textNavbar{
+    font-size: 17px;
+    margin: 0px;
+}
+
+.stickyNavbar{
+    position: fixed;
+    z-index: 10000;
+}
+
+.logoInicio{
+    width: 140px;
+}
+
+.noShadow{
+    box-shadow: none !important;
+}

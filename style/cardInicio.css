@@ -1,0 +1,75 @@
+.sizeCardInicio{
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+.borderCardInicio{
+    border-radius: 15px !important;
+}
+
+.backgroundCardInicio{
+    background-image: url(../pictures/cardInicio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Card para la parte de los registros*/
+.backgroundCardForm{
+    background-image: url(../pictures/formCard.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sizeCardForm{
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+
+.imagesSize{
+    margin: 20px 20px 20px 20px;
+}
+
+.wither{
+    width: 100px;
+}
+
+/*Card para la parte donde termina el registro de los usuarios (empresas y aspirantes)-*/
+.backgroundCardFinalRegistro{
+    background-image: url(../pictures/registroTerminado.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titleFinal, .textFinal{
+    color: #fff;
+}
+
+.titleFinal{
+    font-size: 35px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+
+/*Cards que van en la parte de arriba del formulario*/
+
+.sizeCardInicioSmall{
+    width: 100%;
+    padding: 5px 50px 5px 50px;
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+.textCardInicioSamll{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*Cards para el inicio de la busqueda*/
+.roundPictures{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}

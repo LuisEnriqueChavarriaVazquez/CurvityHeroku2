@@ -1,0 +1,165 @@
+.wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.clash-card {
+    background: white;
+    width: 280px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 15px -12px black;
+}
+.clash-card__image ,.card_image_empleado{
+    position: relative;
+    height: 280px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.clash-card__unit-name {
+    font-size: 23px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: -15px;
+}
+.clash-card__unit-description {
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.small_text_summary{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.small_text_social_media{
+    font-size: 13px;
+    margin-bottom: -10px !important;
+}
+
+.small_text_social_media_name{
+    font-weight: 900;
+}
+
+.last_social_media{
+    margin-bottom: 20px !important;
+}
+
+.name_margin{
+    margin: 10px 20px -10px 0px;
+}
+
+.btn_margin{
+    margin-bottom: 20px;
+}
+
+.contentDescription{
+    overflow: auto;
+    height: 320px !important;
+}
+
+/*Contenedor para las cards de SWIPE*/
+
+.contank{
+    padding: 0px;
+}
+
+.SWIPECAROUSEL{
+    height: 800px !important;
+}
+
+/*Botones de aceptación o rechazo de la solicitud*/
+
+.buttonContainerEvaluate{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    border-radius: 50px;
+    top: -25px;
+    right: -40px;
+    background-color: black;
+}
+
+.buttonEvaluate{
+    background-color: rgb(192, 192, 192);
+    width: 100px;
+    height: 50px;
+}
+
+.aceptaButton > img, .rechazaButton > img, .rehacerButton > img{
+    width: 35px;
+}
+
+.aceptaButton{
+    width: 50%;
+    border-radius: 50px 0 0 50px;
+}
+
+.rechazaButton{
+    width: 50%;
+    border-radius: 0px 50px 50px 0;
+}
+
+.aceptaButton, .rechazaButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonHide{
+    display: none !important;
+}
+
+.rehacerButton{
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.medidas{
+    width: 100%;
+    height: 285px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+/*ID del aspirantes SWIPE*/
+
+.idDisplay{
+    width: 280px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(241, 241, 241);
+    color:#01476B;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementoSwipePadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+

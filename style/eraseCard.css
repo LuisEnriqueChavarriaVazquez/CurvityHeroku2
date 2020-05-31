@@ -1,0 +1,39 @@
+.cardEraseSize{
+    height: 50px;
+    padding: 0%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.textOfertaErase{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cardErasePosition{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.textCardEraseBox{
+    width: 70%;
+    height: 50px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.textCardEraseIcon{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
